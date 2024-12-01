@@ -5,7 +5,7 @@ import std/sequtils
 import std/math
 import std/algorithm
 
-const input = "day1.example"
+const input = "day1.input"
 
 func parseLine(s: string): tuple =
   let i = s.splitWhitespace.map(parseInt)
